@@ -3,7 +3,6 @@ def subarray_sum(data, sum):
     slow = 0
     running_sum = data[fast]
     while fast < len(data) and slow < len(data):
-        print("RUNNING SUM", running_sum)
         if running_sum < sum:
             fast += 1
             running_sum = running_sum + data[fast]
