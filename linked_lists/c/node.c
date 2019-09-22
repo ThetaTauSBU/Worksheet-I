@@ -5,7 +5,7 @@ struct Node
     void *data;
     struct Node *next;
     struct Node *prev;
-}
+};
 
 void insert(struct Node **head, void *data, size_t data_size)
 {
